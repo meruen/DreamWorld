@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Examples\font.spritefont</Source>
+      <Name>Examples\font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\near\Desktop\Dropbox\DreamWorld\DreamWorld\DreamWorld\DreamWorld\bin\x86\Debug\Content\Examples\font.xnb</Output>
+      <Time>2013-06-18T16:47:41-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Examples\ironball.png</Source>
+      <Name>Examples\ironball</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\near\Desktop\Dropbox\DreamWorld\DreamWorld\DreamWorld\DreamWorld\bin\x86\Debug\Content\Examples\ironball.xnb</Output>
+      <Time>2013-06-18T16:47:41-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Examples\indiana.png</Source>
+      <Name>Examples\indiana</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\near\Desktop\Dropbox\DreamWorld\DreamWorld\DreamWorld\DreamWorld\bin\x86\Debug\Content\Examples\indiana.xnb</Output>
+      <Time>2013-06-18T16:47:41-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Examples\base.png</Source>
+      <Name>Examples\base</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\near\Desktop\Dropbox\DreamWorld\DreamWorld\DreamWorld\DreamWorld\bin\x86\Debug\Content\Examples\base.xnb</Output>
+      <Time>2013-06-27T21:45:29-03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{C1ECD3B5-A5F7-43A4-A1CE-3B2040CA8CE6}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\near\Desktop\Dropbox\DreamWorld\DreamWorld\DreamWorld\DreamWorldContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\near\Desktop\Dropbox\DreamWorld\DreamWorld\DreamWorld\DreamWorld\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\near\Desktop\Dropbox\DreamWorld\DreamWorld\DreamWorld\DreamWorld\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\near\Desktop\Dropbox\DreamWorld\DreamWorld\DreamWorld\DreamWorld\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-06-17T10:57:33.8326786-03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

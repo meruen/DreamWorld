@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{FF62E3D2-5A46-4FE2-82BD-1BEA23D8ADF2}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Xbox 360</Platform>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DreamWorld</RootNamespace>
+    <AssemblyName>DreamWorld</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Xbox 360</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>b6480c54-67c7-488e-a057-97244ed1c468</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Xbox 360' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Xbox 360\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;XBOX;XBOX360</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <XnaCompressContent>true</XnaCompressContent>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Xbox 360' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Xbox 360\Release</OutputPath>
+    <DefineConstants>TRACE;XBOX;XBOX360</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionManager.cs" />
+    <Compile Include="BackText.cs" />
+    <Compile Include="ColisionHelper.cs" />
+    <Compile Include="DrawableAction.cs" />
+    <Compile Include="DrawableActionManager.cs" />
+    <Compile Include="Examples\GenericActorExample.cs" />
+    <Compile Include="Examples\GenericMapExample.cs" />
+    <Compile Include="Examples\JumpActionExample.cs" />
+    <Compile Include="GenericActor.cs" />
+    <Compile Include="GenericMap.cs" />
+    <Compile Include="JumpAction.cs" />
+    <Compile Include="Examples\DrawableActionManagerExample.cs" />
+    <Compile Include="Examples\Example.cs" />
+    <Compile Include="Examples\GenericSpriteExample.cs" />
+    <Compile Include="Examples\GenericTextExample.cs" />
+    <Compile Include="Examples\InputControllerExample.cs" />
+    <Compile Include="Examples\LetterTextExample.cs" />
+    <Compile Include="Examples\MoveActionExample.cs" />
+    <Compile Include="Examples\PictureExample.cs" />
+    <Compile Include="Examples\XboxInputControllerExample.cs" />
+    <Compile Include="GenericAction.cs" />
+    <Compile Include="BaseObject.cs" />
+    <Compile Include="DrawableObject.cs" />
+    <Compile Include="DreamWorldGame.cs" />
+    <Compile Include="DynamicTimeout.cs" />
+    <Compile Include="GenericSprite.cs" />
+    <Compile Include="GenericText.cs" />
+    <Compile Include="GenericTimeout.cs" />
+    <Compile Include="InputController.cs" />
+    <Compile Include="InputKey.cs" />
+    <Compile Include="InputXboxKey.cs" />
+    <Compile Include="LetterText.cs" />
+    <Compile Include="LetterTextAction.cs" />
+    <Compile Include="MaskFactory.cs" />
+    <Compile Include="MoveAction.cs" />
+    <Compile Include="Picture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="SpecialSprite.cs" />
+    <Compile Include="Tile.cs" />
+    <Compile Include="TileMask.cs" />
+    <Compile Include="Try1\CharSprite.cs" />
+    <Compile Include="Try1\CustomCursor.cs" />
+    <Compile Include="Try1\GamtTime.cs" />
+    <Compile Include="Try1\MainChar.cs" />
+    <Compile Include="Try1\MainHud.cs" />
+    <Compile Include="Try1\SkillDisplay.cs" />
+    <Compile Include="Try1\Utils.cs" />
+    <Compile Include="Try2\BaseAtributes.cs" />
+    <Compile Include="Try2\Poring.cs" />
+    <Compile Include="Try2\PoringSkill.cs" />
+    <Compile Include="Try2\Skill.cs" />
+    <Compile Include="Try3\Character.cs" />
+    <Compile Include="Try3\CharAvatar.cs" />
+    <Compile Include="Try3\MonsterAvatar.cs" />
+    <Compile Include="Try3\MTChar.cs" />
+    <Compile Include="Try3\MTCharacter.cs" />
+    <Compile Include="Try3\MTPoring.cs" />
+    <Compile Include="Try4\DamageDisplay.cs" />
+    <Compile Include="WaitAction.cs" />
+    <Compile Include="XboxButton.cs" />
+    <Compile Include="XboxInputController.cs" />
+    <Compile Include="XboxInputSticks.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DreamWorldContent\DreamWorldContent.contentproj">
+      <Name>DreamWorldContent</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>
